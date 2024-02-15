@@ -1,0 +1,56 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+/* body {
+  background-color: #f8f7f4;
+} */
+
+.hero-image {
+  /* background-image: url(images/Destinasi-Wisata-Indonesia-yang-Indah_Objek.jpg); */
+  background-color: red;
+  background-size: cover;
+  background-position: center;
+  height: 50rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.hero-content img {
+  max-width: 25%; /*Menyesuiakan Ukuran Gambar Orang*/
+  height: auto;
+  border-radius: 50%;
+}
+
+.card {
+  width: 300px;
+  display: flex;
+  margin-top: 20px;
+}
+
+.carousel-section {
+  margin: 5rem auto;
+}
+
+.icon {
+  padding-right: 15px;
+  font-size: larger;
+}
