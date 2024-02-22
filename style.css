@@ -54,3 +54,8 @@
   padding-right: 15px;
   font-size: larger;
 }
+
+.card-img-top {
+  object-fit: cover;
+  height: 200px; /* Sesuaikan tinggi yang diinginkan */
+}
